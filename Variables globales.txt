@@ -1,0 +1,61 @@
+_POST
+_GET
+_RESOURCES
+_FILES
+_SESSION
+_COOKIES
+
+536125-Raciopi-Mauro
+637612-Porfirio-Thiago
+301958-Racedo-Patricio
+123456-Solivan-Nathan
+654321-Claus-Santa
+654123-Waterson-Gumball
+666666-Hudson-Abader
+array(1) {
+["archivo"]=>
+array(6) {
+["name"]=>
+array(2) {
+[0]=>
+string(29) "Captura de pantalla (459).png"
+[1]=>
+string(11) "hollow.avif"
+}
+["full_path"]=>
+array(2) {
+[0]=>
+string(29) "Captura de pantalla (459).png"
+[1]=>
+string(11) "hollow.avif"
+}
+["type"]=>
+array(2) {
+[0]=>
+string(9) "image/png"
+[1]=>
+string(10) "image/avif"
+}
+["tmp_name"]=>
+array(2) {
+[0]=>
+string(24) "C:\xampp\tmp\phpBFD6.tmp"
+[1]=>
+string(24) "C:\xampp\tmp\phpBFD7.tmp"
+}
+["error"]=>
+array(2) {
+[0]=>
+int(0)
+[1]=>
+int(0)
+}
+["size"]=>
+array(2) {
+[0]=>
+int(588508)
+[1]=>
+int(163958)
+}
+}
+}

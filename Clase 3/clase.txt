@@ -1,0 +1,51 @@
+Se busca poder crear apliaciones que corran en un navegador web
+Falta aprender lo de pedir/recuperar peticiones y otras cosas que vamos a ver hoy
+
+Manejo de archivos, es casi igual para alfanumerico que binario
+
+Todos los archivos se encuentrar de lado del servidor, nada del cliente
+
+el Fgets lee hasta el enter (Al enter no lo leel)
+
+Escribir/leer/copiar archivos
+
+El resto de informacion "Importante" ira en una base de datos
+
+Cuando un usuario sube un archivo se alejo de manera temporal (Si nada mas es para una validacion)
+
+El copy, si el archivo existe y el path del destino tambien (Incluyendo permisos, etc). 
+Si el archivo destino existe lo sobreescribe (No escribe a continuacion)
+
+protocolo http 
+
+Para hacer una peticion por get a un servidor, se hace en la url
+Solo se hace en formato de cadena
+url?variable=valor
+
+Arrays globales, variables superglobales. una es _GET (Array asociativo)
+url?variable=valor entonces $_Get = {["variable"]=> "valor"}
+%20 en una url es un espacio
+
+$_GET , $_POST , $_REQUEST
+
+$_REQUESTE muestra todo
+
+url?variable=valor&otra_variable=otro_valor
+
+Para usar $_POST hay que usar un form (Contenedor de distintos elementos)
+
+isset($variable) sirve para saber si una variable tiene un valor
+
+por default las peticiones son por GET
+
+Se puede hacer un archivo de extension php, pero codear todo en html, se pueden agregar
+fragmentos de codigo en php
+
+Toda peticion de busqueda/ lectura es mediente un GET
+$_POST cuando se cree algo
+$_PUT cuando se modifica algo 
+
+Crear un CRUD generico para archivos y bases de datos (sin framework) para poder usarlo en el 
+parcial
+
+Hay que hacer el CRUD mediante objetos. El como? no lo se

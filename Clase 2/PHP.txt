@@ -1,0 +1,38 @@
+Deriva de C y, como en este, tiene funciones 'Simples'
+No hay objetos(Pero se pueden "Simular"), ni sobrecarga
+Si un parametro no posee un valor predeterminado, el compilador de PHP 
+entiende de ese parametro es obligatorio
+
+El true se puede transformar en un int de valor 1
+
+Include vs require
+
+Con include, si no funciono la ejecucion sigue
+Con require, si no funciono la ejecucion se detiene y lanza una excepcion
+
+Si es algo importante, como la conexion a una base de datos, hay que usar el require
+Si es algo menor (Fecha actual, mes ,etc) se puede usar el include
+
+Un fatal error rompe el programa, nada de excepciones
+
+require_once
+
+Las clases no pueden tener un modificar de visibilidad, todas son publicas
+En php el modificador de visibilidad por defecto es public
+
+No hay eventos, ni propiedades, ni sobre carga,ni otra cosa XD
+ni constructor estatico
+
+publico, privado y protegido
+
+__construct() {Codigo}  Cuando se crea el constructor en la clase
+pero se usa el nombre de la clase cuando se lo invoca
+
+el -> se usa para acceder a los miembros de instancia, en cambio si se quiere acceder
+a un miembro estatico se usa ::
+
+para acceder a un atributo estatico, dentro de la clase, se usa self::&atributo
+
+En php todos los metodos estan definidos como virtual (Aunque no se usa la palabra)
+
+__NAMESPACE__ me retorna en namespace de donde estoy parado
